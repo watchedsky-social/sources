@@ -11,4 +11,8 @@ for url in ${ALL_URLS[@]}; do
   curl "$url" > "${file}.json"
 done
 
-jq --slurp -c '{"type":"FeatureCollection", "features":.}' *.json > all.json
+# shellcheck disable=SC2035
+jq --slurp -c '.' *.json > allzones
+# shellcheck disable=SC2035
+rm *.json
+mv allzones all.json

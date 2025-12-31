@@ -8,5 +8,4 @@ cited.
 Located in [`zones/us`](./zones/us)
 
 - [National Weather Service zone definitions](https://api.weather.gov/zones)
-- [US Zip Code GeoJSON](https://github.com/OpenDataDE/State-zip-code-GeoJSON)
 - [US Zip Code Database](http://uszipcodelist.com/download.html) _I know it's HTTP, I'm grossed out too_
