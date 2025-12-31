@@ -12,3 +12,5 @@ tab_width = 2
 
 [*.go]
 indent_style = tab
+indent_size = 4
+tab_width = 4
